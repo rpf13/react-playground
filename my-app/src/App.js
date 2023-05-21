@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionalGreeting from './components/FunctionalGreetings';
+import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithProps';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FunctionalGreeting />
+      {/* adding multiple props, separated by space */}
+      <FunctionalGreetingWithProps greeting="Nice to meet you!" name="Mike" age="33" />
     </div>
   );
 }
