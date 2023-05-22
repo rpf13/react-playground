@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Issues to check when starting
+
+The gitpod template causes the following error, when React is started, due to newer version of node:
+
+`Error: digital envelope routines::unsupported`
+
+Quick solution is to run the following two commands or the shortcut for both, everytime the workspace is started.
+
+```
+nvm install 16.13.0
+nvm alias default 16.13.0
+
+nvm install 16 && nvm use 16
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
