@@ -4,6 +4,9 @@ import FunctionalGreeting from './components/FunctionalGreetings';
 import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithProps';
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
+import EventBinding from './components/EventBinding';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -14,7 +17,11 @@ function App() {
       {/* Using a prop in the classful state component */}
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Mike" /> */}
       {/* Using async and callback functions */}
-      <StatefulGreetingWithCallback />
+      {/* <StatefulGreetingWithCallback /> */}
+      {/* <EventBinding /> */}
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }
