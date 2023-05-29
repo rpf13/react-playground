@@ -7,6 +7,9 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import EventBinding from './components/EventBinding';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
+import { SearchBar3 } from './components/SearchBar';
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       {/* <EventBinding /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      {/* <ControlledForm /> */}
+      {/* <UncontrolledForm /> */}
+      <SearchBar3 />
     </div>
   );
 }
