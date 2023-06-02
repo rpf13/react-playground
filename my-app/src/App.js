@@ -10,6 +10,7 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import { SearchBar3 } from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
-      <SearchBar3 />
+      {/* <SearchBar3 /> */}
+      <ControlledFormHooks />
     </div>
   );
 }
