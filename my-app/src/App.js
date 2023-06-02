@@ -11,6 +11,13 @@ import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import { SearchBar3 } from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterConditional from './components/UseEffectCounterConditional';
+import UseEffectCounterOneTime from './components/UseEffectCounterOneTime';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+
 
 function App() {
   return (
@@ -29,7 +36,13 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <SearchBar3 /> */}
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArrays /> */}
+      {/* <UseStateWithObjects /> */}
+      {/* <UseEffectCounter /> */}
+      {/* <UseEffectCounterConditional /> */}
+      {/* <UseEffectCounterOneTime /> */}
+      <UseEffectCounterContainer />
     </div>
   );
 }
