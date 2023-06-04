@@ -17,6 +17,8 @@ import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterConditional from './components/UseEffectCounterConditional';
 import UseEffectCounterOneTime from './components/UseEffectCounterOneTime';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 
 function App() {
@@ -42,7 +44,9 @@ function App() {
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterConditional /> */}
       {/* <UseEffectCounterOneTime /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      {/* <HTTPRequests /> */}
+      <HTTPPost />
     </div>
   );
 }
